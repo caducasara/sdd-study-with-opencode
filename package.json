@@ -1,0 +1,40 @@
+{
+  "name": "habittrack",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "jest --coverage",
+    "test:coverage": "jest --coverage",
+    "test:unit": "jest --testPathIgnorePatterns='\\.integration\\.test\\.' --coverage=false",
+    "test:integration": "jest --testPathPatterns='\\.integration\\.test\\.' --coverage=false",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
+    "jest-environment-node": "^30.5.2",
+    "mongodb-memory-server": "^11.3.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
